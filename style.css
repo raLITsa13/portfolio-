@@ -118,3 +118,13 @@ nav ul li a:hover::after{
     color: hsl(220, 95%, 75%);
     font-size: 14px;
 }
+.tab-contents ul li span{
+    color: #fff;
+    font-size: 14px;
+}
+.tab-contents{
+    display: none;
+}
+.tab-contents.active-tab{
+    display: block;
+}
